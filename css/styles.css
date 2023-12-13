@@ -73,7 +73,11 @@ body {
   
 
 }
-.links-header::after{
+.links-header:hover,
+.links-header:focus{
+  transform:translateY(0%);
+}
+/* .links-header::after{
   content:"";
   position: absolute;
   left: 0;
@@ -81,7 +85,7 @@ body {
   height:4px;
   background-color: var(--links-color);
   border-radius: 2px;
-}
+} */
 
 .adress-info {
   color: var(--pcolor);
